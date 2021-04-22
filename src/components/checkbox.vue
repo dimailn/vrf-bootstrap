@@ -1,14 +1,15 @@
 <template>
 
 <b-form-checkbox
-  :label="noLabel ? '' : humanName"
   v-model="$value"
   :error-messages="$errors[name] && $errors[name][0]"
   :tabindex="tabindex"
   :disabled="$disabled"
   :indeterminate="indeterminate"
   v-on="$listeners"
-/>
+>
+  {{noLabel ? '' : humanName}}
+</b-form-checkbox>
 
 
 </template>

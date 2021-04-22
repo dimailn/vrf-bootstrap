@@ -3,13 +3,14 @@
 
 <b-form-checkbox switch
   :name="name"
-  :label="noLabel ? '' : humanName"
   v-model="$value"
   :error-messages="$errors[name] && $errors[name][0]"
   :tabindex="tabindex"
   :disabled="$disabled"
   v-on="$listeners"
-/>
+>
+  {{noLabel ? '' : humanName}}
+</b-form-checkbox>
 
 
 </template>
