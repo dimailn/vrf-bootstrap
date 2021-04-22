@@ -1,6 +1,6 @@
-# vrf-vuetify
+# vrf-bootstrap
 
-[Vrf](https://github.com/dimailn/vrf) adapter for Vuetify.
+[Vrf](https://github.com/dimailn/vrf) adapter for Bootstrap Vue.
 
 >
 
