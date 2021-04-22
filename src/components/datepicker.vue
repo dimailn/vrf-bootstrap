@@ -1,6 +1,6 @@
 <template>
 
-<b-form-datepicker v-model="$value" />
+<b-form-datepicker v-model="$value"  value-as-date />
 
 
 </template>
